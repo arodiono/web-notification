@@ -9,6 +9,8 @@ hello world
 
 <script src="sw.js"></script>
 <script>
+    navigator.serviceWorker.register('sw.js')
+    
   Notification.requestPermission(function (status) {
     console.log('Notification permission status:', status)
     if (status === 'granted') {
