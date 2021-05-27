@@ -33,7 +33,9 @@ hello world
         }
         
         for (let i = 0; i < 10; i++) {
-          reg.showNotification(`hello ${i}`)
+          setTimeout(() => {
+            reg.showNotification(`hello ${i}`)
+          }, 2000)
         }
 
       })
