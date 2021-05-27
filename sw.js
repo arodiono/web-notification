@@ -34,6 +34,6 @@ self.setTimeout(
         primaryKey: 1
       }
     }
-    self.displayNotification()
+//     self.displayNotification()
   }, 2000
 )
