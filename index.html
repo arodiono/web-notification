@@ -19,6 +19,7 @@ hello world
   function displayNotification () {
     if (Notification.permission === 'granted') {
       navigator.serviceWorker.getRegistration().then(function (reg) {
+          console.log(reg)
         var options = {
           body: 'Here is a notification body!',
           // icon: 'images/example.png',
