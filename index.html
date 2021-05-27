@@ -31,9 +31,10 @@ hello world
             primaryKey: 1
           }
         }
-         setInterval(() => {
-          reg.showNotification('helloZ')
-        }, 1000)
+        
+        for (let i = 0; i < 10; i++) {
+          reg.showNotification(`hello ${i}`)
+        }
 
       })
     }
