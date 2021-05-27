@@ -32,10 +32,10 @@ hello world
           }
         }
         
-        for (let i = 0; i < 10; i++) {
+        for (let i = 1000; i <= 10000; i+=1000) {
           setTimeout(() => {
             reg.showNotification(`hello ${i}`)
-          }, 2000)
+          }, i)
         }
 
       })
